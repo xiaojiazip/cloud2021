@@ -1,0 +1,5 @@
+修改映射文件：
+    C:\Windows\System32\drivers\etc路径下的hosts文件
+    修改映射配置添加进hosts文件
+    127.0.0.1	eureka7001.com
+    127.0.0.1	eureka7002.com
