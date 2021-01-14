@@ -1,5 +1,19 @@
+git覆盖更新：
+git fetch --all
+git reset --hard origin/master
+
 修改映射文件：
     C:\Windows\System32\drivers\etc路径下的hosts文件
     修改映射配置添加进hosts文件
     127.0.0.1	eureka7001.com
     127.0.0.1	eureka7002.com
+
+zookeeper：
+启动：./zkServer.sh start
+连接客户端：./zkCli.sh
+查看服务：ls /services
+
+
+consul:
+开发模式启动：consul agent -dev
+web前端页面：localhost:8500
