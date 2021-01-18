@@ -17,3 +17,5 @@ zookeeper：
 consul:
 开发模式启动：consul agent -dev
 web前端页面：localhost:8500
+
+openFeign自带Ribbon负载均衡
