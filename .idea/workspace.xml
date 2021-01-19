@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0eb3ddbd-0b79-4410-b63b-52273a245fbe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/OpenFeign使用.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/cloud-consumer-feign-order-80.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/src/main/java/com/jqp/springCloud/OrderFeignApplication80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/src/main/java/com/jqp/springCloud/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/src/main/java/com/jqp/springCloud/controller/PaymentFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/src/main/java/com/jqp/springCloud/service/PaymentFeignService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order-80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/cloud-provider-hystrix-payment-8001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/PaymentHystrixApplication8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/impl/PaymentHystrixServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/OrderHystrixApplication80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/OrderHystrixApplication80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/controller/OrderHystrixController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/controller/OrderHystrixController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/PaymentHystrixService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/PaymentHystrixService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/PaymentHystrixApplication8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/PaymentHystrixApplication8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/jqp/springCloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/jqp/springCloud/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/笔记.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,6 +27,7 @@
     <ignored path="$PROJECT_DIR$/cloud-consumer-feign-order-80/target/" />
     <ignored path="$PROJECT_DIR$/cloud-providerconsul-payment-8006/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,35 +55,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PaymentController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java">
+      <file leaf-file-name="OrderHystrixController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/controller/OrderHystrixController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+            <state relative-caret-position="756">
+              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentHystrixServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/impl/PaymentHystrixServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/resources/application.yml">
+      <file leaf-file-name="PaymentHystrixService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/PaymentHystrixService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PaymentService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -159,9 +147,13 @@
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/PaymentHystrixApplication8001.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/PaymentHystrixApplication8001.java" />
         <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/OrderHystrixApplication80.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/controller/OrderHystrixController.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/impl/PaymentHystrixServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/PaymentHystrixService.java" />
       </list>
     </option>
   </component>
@@ -210,6 +202,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,25 +215,25 @@
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -246,7 +241,7 @@
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -255,7 +250,7 @@
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -265,7 +260,7 @@
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -276,7 +271,7 @@
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -284,6 +279,95 @@
               <item name="jqp" type="462c0819:PsiDirectoryNode" />
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqp" type="462c0819:PsiDirectoryNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqp" type="462c0819:PsiDirectoryNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-feign-hystrix-order-80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="jqp" type="462c0819:PsiDirectoryNode" />
+              <item name="springCloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
@@ -297,47 +381,10 @@
               <item name="springCloud" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-hystrix-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud2021" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud2021" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment-8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,10 +433,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentHystrixApplication8001">
+  <component name="RunManager" selected="Application.OrderHystrixApplication80">
     <configuration name="OrderFeignApplication80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jqp.springCloud.OrderFeignApplication80" />
       <module name="cloud-consumer-feign-order-80" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jqp.springCloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="OrderHystrixApplication80" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jqp.springCloud.OrderHystrixApplication80" />
+      <module name="cloud-consumer-feign-hystrix-order-80" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -442,6 +500,11 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jqp.springCloud.OrderFeignApplication80" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="OrderHystrixApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-hystrix-order-80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jqp.springCloud.OrderHystrixApplication80" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="PaymentHystrixApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment-8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jqp.springCloud.PaymentHystrixApplication8001" />
@@ -479,6 +542,7 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.OrderHystrixApplication80" />
       <item itemvalue="Spring Boot.PaymentHystrixApplication8001" />
       <item itemvalue="Spring Boot.OrderFeignApplication80" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
@@ -486,10 +550,12 @@
       <item itemvalue="Spring Boot.EurekaApplication7001" />
       <item itemvalue="Spring Boot.PaymentMain8001" />
       <item itemvalue="Application.OrderFeignApplication80" />
+      <item itemvalue="Application.OrderHystrixApplication80" />
       <item itemvalue="Spring Boot.EurekaApplication7002" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderHystrixApplication80" />
         <item itemvalue="Application.OrderFeignApplication80" />
         <item itemvalue="Spring Boot.EurekaApplication7002" />
       </list>
@@ -515,6 +581,7 @@
       <workItem from="1610448903485" duration="3997000" />
       <workItem from="1610537672762" duration="1164000" />
       <workItem from="1610622128071" duration="1838000" />
+      <workItem from="1611054389727" duration="4605000" />
     </task>
     <task id="LOCAL-00001" summary="学完P22提交">
       <created>1610371609615</created>
@@ -530,17 +597,25 @@
       <option name="project" value="LOCAL" />
       <updated>1610460004647</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="学完P49提交">
+      <created>1610975997159</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610975997159</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30850000" />
+    <option name="totallyTimeSpent" value="36291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.3281027" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -556,52 +631,26 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="10" sideWeight="0.49865952" visible="true" weight="0.58915836" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49932975" weight="0.3281027" />
+      <window_info anchor="bottom" id="Run Dashboard" order="10" weight="0.33380884" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3281027" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.3281027" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32952926" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32372653" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32372653" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3281027" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31903484" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Problems" order="15" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
-      <window_info id="Web" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="10" weight="0.38088444" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Bean Validation" order="4" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32905984" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4116809" />
-      <window_info anchor="bottom" id="Spring" order="14" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Run Dashboard" order="10" weight="0.38088444" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.32952926" />
@@ -624,7 +673,6 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32905984" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32952926" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31903484" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -633,13 +681,39 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.4116809" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32952926" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Run Dashboard" order="10" weight="0.38088444" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4116809" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -647,42 +721,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="学完P22提交" />
     <MESSAGE value="学完P28提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="学完P28提交" />
+    <MESSAGE value="学完P49提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="学完P49提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.18/lombok-1.16.18.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/jqp/springCloud/entity/CommontResult.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/jqp/springCloud/mapper/PaymentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/jqp/springCloud/entity/Payment.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/jqp/springCloud/service/impl/PaymentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-order80/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -729,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/jqp/springCloud/EurekaApplication7001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -858,11 +898,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,9 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,9 +926,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,9 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,25 +971,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/PaymentHystrixApplication8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/PaymentHystrixApplication8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/PaymentHystrixApplication8001.java" />
     <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -971,23 +979,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java">
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/jqp/springCloud/EurekaApplication7001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="238">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/controller/PaymentController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/PaymentHystrixApplication8001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        <state relative-caret-position="202">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/jqp/springCloud/service/PaymentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/OrderHystrixApplication80.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/impl/PaymentHystrixServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/controller/OrderHystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order-80/src/main/java/com/jqp/springCloud/service/PaymentHystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
         </state>
       </provider>
     </entry>
