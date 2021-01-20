@@ -1,0 +1,20 @@
+微服务健康web图形化监控，访问地址：http://localhost:9002/hystrix
+在改图形化节目粘贴监控8001地址：http://localhost:8001/hystrix.stream
+
+在被监控微服务主启动类上加上如下代码：
+本次测试监控Hystrix8001
+
+/**
+ *此配置是为了服务监控而配置，与服务容错本身无关，springcloud升级后的坑
+ *ServletRegistrationBean因为springboot的默认路径不是"/hystrix.stream"，
+ *只要在自己的项目里配置上下面的servlet就可以了
+ */
+@Bean
+public ServletRegistrationBean getServlet() {
+    HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
+    ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
+    registrationBean.setLoadOnStartup(1);
+    registrationBean.addUrlMappings("/hystrix.stream");
+    registrationBean.setName("HystrixMetricsStreamServlet");
+    return registrationBean;
+}
