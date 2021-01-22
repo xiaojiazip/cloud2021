@@ -14,7 +14,9 @@ spring:
           search-paths:
             - springcloud-config
       ####读取分支
-      label: master
+      label: main
+      username: xiaojiazip
+      password: Jp240611
 #rabbitmq相关配置
 rabbitmq:
   host: localhost
