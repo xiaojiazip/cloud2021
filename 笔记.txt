@@ -2,6 +2,14 @@ git覆盖更新：
 git fetch --all
 git reset --hard origin/master
 
+git下载项目：
+git clone https://github.com/xiaojiazip/springcloud-config
+
+git命令提交：
+git add
+git commit -m "init yml"
+git push origin master
+
 修改映射文件：
     C:\Windows\System32\drivers\etc路径下的hosts文件
     修改映射配置添加进hosts文件
@@ -19,3 +27,6 @@ consul:
 web前端页面：localhost:8500
 
 openFeign自带Ribbon负载均衡
+
+application.yml是用户级的系统资源配置项
+boostrap.yml 是系统级的，优先级更高
