@@ -1,0 +1,4 @@
+
+需要发送post请求3355才会生效
+
+curl -X POST "http://localhost:3355/actuator/refresh"

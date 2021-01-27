@@ -30,3 +30,6 @@ openFeign自带Ribbon负载均衡
 
 application.yml是用户级的系统资源配置项
 boostrap.yml 是系统级的，优先级更高
+
+
+RabbitMQ启动管理命令：rabbitmq-plugins enable rabbitmq_management
